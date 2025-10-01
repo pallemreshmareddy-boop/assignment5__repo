@@ -1,0 +1,6 @@
+numbers = list(range(1, 11))
+print("original list:", numbers)
+first_five = numbers [0:5]
+print("extracted first five elements:", first_five)
+reserved = first_five[::-1]
+print("reserved extraced elements:", reserved)
